@@ -1,0 +1,16 @@
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Persistence.Ef.deps.json
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Persistence.Ef.dll
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Persistence.Ef.pdb
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.csproj.AssemblyReference.cache
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.GeneratedMSBuildEditorConfig.editorconfig
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.AssemblyInfoInputs.cache
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.AssemblyInfo.cs
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.csproj.CoreCompileInputs.cache
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.sourcelink.json
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.dll
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/refint/Persistence.Ef.dll
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.pdb
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/ref/Persistence.Ef.dll
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Entities.dll
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Entities.pdb
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persiste.C2A581E0.Up2Date
