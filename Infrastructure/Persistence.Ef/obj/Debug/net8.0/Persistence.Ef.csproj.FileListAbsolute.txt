@@ -14,3 +14,5 @@
 /home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Entities.dll
 /home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Entities.pdb
 /home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persiste.C2A581E0.Up2Date
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Services.dll
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Services.pdb

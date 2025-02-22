@@ -10,3 +10,7 @@
 /home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/refint/Services.dll
 /home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/Services.pdb
 /home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/ref/Services.dll
+/home/khshayar/Desktop/p/Api/Core/Services/bin/Debug/net8.0/Entities.dll
+/home/khshayar/Desktop/p/Api/Core/Services/bin/Debug/net8.0/Entities.pdb
+/home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/Services.csproj.Up2Date
