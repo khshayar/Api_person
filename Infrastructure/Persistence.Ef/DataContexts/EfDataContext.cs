@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+using Persistence.Ef.Personnels;
 
 namespace Persistence.Ef.DataContexts;
 
@@ -17,6 +17,6 @@ public class EfDataContext: DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(
-            typeof(EfDataContext).Assembly);
+            typeof(PersonnelEntityMap).Assembly);
     }
 }

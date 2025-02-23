@@ -1,5 +1,4 @@
 using Entities.Personnels;
-using Microsoft.EntityFrameworkCore;
 using Persistence.Ef.DataContexts;
 
 namespace Persistence.Ef.Personnels;

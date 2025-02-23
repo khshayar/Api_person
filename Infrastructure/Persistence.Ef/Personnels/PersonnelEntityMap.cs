@@ -1,6 +1,4 @@
 using Entities.Personnels;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistence.Ef.Personnels;
 

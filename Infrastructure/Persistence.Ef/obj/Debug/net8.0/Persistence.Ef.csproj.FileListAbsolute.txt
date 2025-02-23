@@ -16,3 +16,5 @@
 /home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persiste.C2A581E0.Up2Date
 /home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Services.dll
 /home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Services.pdb
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/bin/Debug/net8.0/Persistence.Ef.runtimeconfig.json
+/home/khshayar/Desktop/p/Api/Infrastructure/Persistence.Ef/obj/Debug/net8.0/Persistence.Ef.genruntimeconfig.cache
