@@ -14,3 +14,5 @@
 /home/khshayar/Desktop/p/Api/Core/Services/bin/Debug/net8.0/Entities.pdb
 /home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
 /home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/home/khshayar/Desktop/p/Api/Core/Services/bin/Debug/net8.0/Services.runtimeconfig.json
+/home/khshayar/Desktop/p/Api/Core/Services/obj/Debug/net8.0/Services.genruntimeconfig.cache

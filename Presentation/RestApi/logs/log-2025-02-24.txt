@@ -1,0 +1,190 @@
+2025-02-24 13:13:57.6486 | Info | Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 13:13:57.7629 | Info | Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 13:13:57.7687 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 13:13:57.7712 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 13:13:57.8248 | Info | Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; | 
+2025-02-24 13:13:57.8611 | Info | No migrations were applied. The database is already up to date. | 
+2025-02-24 13:13:57.8622 | Info | دیتابیس LogDb آماده شد | 
+2025-02-24 13:13:58.0065 | Info | Now listening on: http://localhost:5157 | 
+2025-02-24 13:13:58.0110 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-02-24 13:13:58.0110 | Info | Hosting environment: Development | 
+2025-02-24 13:13:58.0110 | Info | Content root path: /home/khshayar/Desktop/p/Api/Presentation/RestApi | 
+2025-02-24 13:13:58.8214 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/index.html - - - | 
+2025-02-24 13:13:59.0248 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/index.html - 200 - text/html;charset=utf-8 204.9448ms | 
+2025-02-24 13:13:59.3739 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - - - | 
+2025-02-24 13:13:59.5565 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 182.5465ms | 
+2025-02-24 13:14:10.4388 | Info | Request starting HTTP/1.1 GET http://localhost:5157/api/Personnel - - - | 
+2025-02-24 13:14:10.4444 | Warn | Failed to determine the https port for redirect. | 
+2025-02-24 13:14:10.4462 | Info | Executing endpoint 'RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi)' | 
+2025-02-24 13:14:10.4713 | Info | Route matched with {action = "GetPersonnels", controller = "Personnel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPersonnels() on controller RestApi.Controllers.Personnels.PersonnelController (RestApi). | 
+2025-02-24 13:14:10.4889 | Info | Executing action method RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi) - Validation state: Valid | 
+2025-02-24 13:14:10.9710 | Info | Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatAt], [p].[Email], [p].[FirstName], [p].[LastName], [p].[NationalCode], [p].[PhoneNumber]
+FROM [Personnels] AS [p] | 
+2025-02-24 13:14:11.0865 | Info | Executed action method RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 586.6016ms. | 
+2025-02-24 13:14:11.1021 | Info | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Personnels.Personnel, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. | 
+2025-02-24 13:14:11.1415 | Info | Executed action RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi) in 660.0451ms | 
+2025-02-24 13:14:11.1429 | Info | Executed endpoint 'RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi)' | 
+2025-02-24 13:14:11.1631 | Info | Request finished HTTP/1.1 GET http://localhost:5157/api/Personnel - 200 - application/json;+charset=utf-8 724.2335ms | 
+2025-02-24 13:14:19.9392 | Info | Request starting HTTP/1.1 GET http://localhost:5157/api/Personnel - - - | 
+2025-02-24 13:14:19.9399 | Info | Executing endpoint 'RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi)' | 
+2025-02-24 13:14:19.9399 | Info | Route matched with {action = "GetPersonnels", controller = "Personnel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPersonnels() on controller RestApi.Controllers.Personnels.PersonnelController (RestApi). | 
+2025-02-24 13:14:19.9433 | Info | Executing action method RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi) - Validation state: Valid | 
+2025-02-24 13:14:20.0642 | Info | Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatAt], [p].[Email], [p].[FirstName], [p].[LastName], [p].[NationalCode], [p].[PhoneNumber]
+FROM [Personnels] AS [p] | 
+2025-02-24 13:14:20.0667 | Info | Executed action method RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 122.9395ms. | 
+2025-02-24 13:14:20.0676 | Info | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Personnels.Personnel, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. | 
+2025-02-24 13:14:20.0681 | Info | Executed action RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi) in 127.6807ms | 
+2025-02-24 13:14:20.0681 | Info | Executed endpoint 'RestApi.Controllers.Personnels.PersonnelController.GetPersonnels (RestApi)' | 
+2025-02-24 13:14:20.0681 | Info | Request finished HTTP/1.1 GET http://localhost:5157/api/Personnel - 200 - application/json;+charset=utf-8 129.4581ms | 
+2025-02-24 13:15:26.5136 | Info | Application is shutting down... | 
+2025-02-24 13:18:29.2384 | Info | Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 13:18:29.3176 | Info | Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 13:18:29.3222 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 13:18:29.3237 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 13:18:29.3540 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; | 
+2025-02-24 13:18:29.3845 | Info | No migrations were applied. The database is already up to date. | 
+2025-02-24 13:18:29.3855 | Info | دیتابیس LogDb آماده شد | 
+2025-02-24 13:18:29.5085 | Info | Now listening on: http://localhost:5157 | 
+2025-02-24 13:18:29.5123 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-02-24 13:18:29.5128 | Info | Hosting environment: Development | 
+2025-02-24 13:18:29.5128 | Info | Content root path: /home/khshayar/Desktop/p/Api/Presentation/RestApi | 
+2025-02-24 13:18:30.4954 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/index.html - - - | 
+2025-02-24 13:18:30.7251 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/index.html - 200 - text/html;charset=utf-8 232.9128ms | 
+2025-02-24 13:18:31.0134 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - - - | 
+2025-02-24 13:18:31.2341 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 220.4664ms | 
+2025-02-24 13:18:56.7160 | Info | Application is shutting down... | 
+2025-02-24 13:34:44.2601 | Info | Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 13:34:44.3270 | Info | Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0 | 
+2025-02-24 13:34:44.4732 | Info | Now listening on: http://localhost:5157 | 
+2025-02-24 13:34:44.4800 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-02-24 13:34:44.4800 | Info | Hosting environment: Development | 
+2025-02-24 13:34:44.4800 | Info | Content root path: /home/khshayar/Desktop/p/Api/Presentation/RestApi | 
+2025-02-24 13:34:45.1862 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/index.html - - - | 
+2025-02-24 13:34:45.3580 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/index.html - 200 - text/html;charset=utf-8 172.7327ms | 
+2025-02-24 13:34:45.6241 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - - - | 
+2025-02-24 13:34:45.7647 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 140.5755ms | 
+2025-02-24 13:35:25.8844 | Info | Request starting HTTP/1.1 POST http://localhost:5157/api/Personnel - application/json 168 | 
+2025-02-24 13:35:25.8907 | Warn | Failed to determine the https port for redirect. | 
+2025-02-24 13:35:25.8927 | Info | Executing endpoint 'RestApi.Controllers.Personnels.PersonnelController.CreatePersonnel (RestApi)' | 
+2025-02-24 13:35:25.9151 | Info | Route matched with {action = "CreatePersonnel", controller = "Personnel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreatePersonnel(Services.Personnels.Contracts.AddPersonnelDto) on controller RestApi.Controllers.Personnels.PersonnelController (RestApi). | 
+2025-02-24 13:35:25.9642 | Info | Executing action method RestApi.Controllers.Personnels.PersonnelController.CreatePersonnel (RestApi) - Validation state: Valid | 
+2025-02-24 13:35:26.4738 | Info | Executed DbCommand (50ms) [Parameters=[@__nationalCode_0='?' (Size = 10)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Personnels] AS [p]
+        WHERE [p].[NationalCode] = @__nationalCode_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END | 
+2025-02-24 13:35:26.5180 | Info | Executed action RestApi.Controllers.Personnels.PersonnelController.CreatePersonnel (RestApi) in 593.9702ms | 
+2025-02-24 13:35:26.5193 | Info | Executed endpoint 'RestApi.Controllers.Personnels.PersonnelController.CreatePersonnel (RestApi)' | 
+2025-02-24 13:35:26.5285 | Error | An unhandled exception has occurred while executing the request. | Services.Personnels.NationalIsnotValidException: Exception of type 'Services.Personnels.NationalIsnotValidException' was thrown.
+   at Services.Personnels.PersonnelAppService.Add(AddPersonnelDto dto) in /home/khshayar/Desktop/p/Api/Core/Services/Personnels/PersonnelAppService.cs:line 20
+   at RestApi.Controllers.Personnels.PersonnelController.CreatePersonnel(AddPersonnelDto dto) in /home/khshayar/Desktop/p/Api/Presentation/RestApi/Controllers/Personnels/PersonnelController.cs:line 20
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-24 13:35:26.5883 | Info | Request finished HTTP/1.1 POST http://localhost:5157/api/Personnel - 500 - text/plain;+charset=utf-8 703.9404ms | 
+2025-02-24 13:37:19.5087 | Info | Application is shutting down... | 
+2025-02-24 13:37:27.0891 | Info | Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 13:37:27.1575 | Info | Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 13:37:27.1614 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 13:37:27.1630 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 13:37:27.1834 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; | 
+2025-02-24 13:37:27.2031 | Info | No migrations were applied. The database is already up to date. | 
+2025-02-24 13:37:27.3243 | Info | Now listening on: http://localhost:5157 | 
+2025-02-24 13:37:27.3267 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-02-24 13:37:27.3273 | Info | Hosting environment: Development | 
+2025-02-24 13:37:27.3273 | Info | Content root path: /home/khshayar/Desktop/p/Api/Presentation/RestApi | 
+2025-02-24 13:37:27.9589 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/index.html - - - | 
+2025-02-24 13:37:28.1140 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/index.html - 200 - text/html;charset=utf-8 156.5061ms | 
+2025-02-24 13:37:28.3682 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - - - | 
+2025-02-24 13:37:28.5207 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 152.4930ms | 
+2025-02-24 13:37:58.1345 | Info | Application is shutting down... | 
+2025-02-24 14:06:53.8834 | Info | Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 14:06:53.9419 | Info | Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 14:06:53.9487 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 14:06:53.9501 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 14:06:53.9661 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; | 
+2025-02-24 14:06:53.9810 | Info | No migrations were applied. The database is already up to date. | 
+2025-02-24 14:08:37.0841 | Info | Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 14:08:37.1519 | Info | Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 14:08:37.1601 | Info | Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 | 
+2025-02-24 14:08:37.1619 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); | 
+2025-02-24 14:08:37.1827 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; | 
+2025-02-24 14:08:37.2081 | Info | No migrations were applied. The database is already up to date. | 
+2025-02-24 14:08:37.3431 | Info | Now listening on: http://localhost:5157 | 
+2025-02-24 14:08:37.3455 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-02-24 14:08:37.3463 | Info | Hosting environment: Development | 
+2025-02-24 14:08:37.3463 | Info | Content root path: /home/khshayar/Desktop/p/Api/Presentation/RestApi | 
+2025-02-24 14:08:37.9385 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/index.html - - - | 
+2025-02-24 14:08:38.1255 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/index.html - 200 - text/html;charset=utf-8 187.9040ms | 
+2025-02-24 14:08:38.4552 | Info | Request starting HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - - - | 
+2025-02-24 14:08:38.6782 | Info | Request finished HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 222.7975ms | 
+2025-02-24 14:08:57.1129 | Info | Application is shutting down... | 

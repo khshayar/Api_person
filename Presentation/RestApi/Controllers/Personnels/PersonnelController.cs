@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Mvc;
-
 namespace RestApi.Controllers.Personnels;
 [Route("api/[controller]")]
 [ApiController]

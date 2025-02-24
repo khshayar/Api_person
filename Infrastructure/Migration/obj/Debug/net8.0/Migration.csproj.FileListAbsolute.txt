@@ -77,3 +77,5 @@
 /home/khshayar/Desktop/p/Api/Infrastructure/Migration/obj/Debug/net8.0/Migration.csproj.AssemblyReference.cache
 /home/khshayar/Desktop/p/Api/Infrastructure/Migration/obj/Debug/net8.0/Migration.csproj.Up2Date
 /home/khshayar/Desktop/p/Api/Infrastructure/Migration/bin/Debug/net8.0/appSettings.json
+/home/khshayar/Desktop/p/Api/Infrastructure/Migration/bin/Debug/net8.0/NLog.dll
+/home/khshayar/Desktop/p/Api/Infrastructure/Migration/bin/Debug/net8.0/NLog.Extensions.Logging.dll

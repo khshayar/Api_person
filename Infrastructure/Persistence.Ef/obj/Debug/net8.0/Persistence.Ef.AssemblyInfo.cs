@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Persistence.Ef")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4c23daba79ff9a4712b3e09112ad49b9f9e4f4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9a5991d0cff53c24043538670738ac76dcd40f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Persistence.Ef")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Persistence.Ef")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
